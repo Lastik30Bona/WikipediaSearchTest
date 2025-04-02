@@ -1,8 +1,9 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
+using WikiSearchTest.Pages;
 
-namespace WikiSearchTest
+namespace WikiSearchTest.Tests
 {
     public class Tests
     {
@@ -37,4 +38,6 @@ namespace WikiSearchTest
             driver.Dispose();
         }
     }
+
+
 }

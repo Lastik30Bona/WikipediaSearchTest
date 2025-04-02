@@ -1,10 +1,10 @@
 ﻿using OpenQA.Selenium;
 
-namespace WikiSearchTest
+namespace WikiSearchTest.Pages
 {
     public class WikipediaPage
     {
-        private IWebDriver driver;
+        public IWebDriver driver;
 
         public WikipediaPage(IWebDriver driver)
         {
